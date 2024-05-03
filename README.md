@@ -227,3 +227,10 @@ Discretization can introduce additional complexity to the model, especially if t
 Discretization can be sensitive to outliers, as they may fall into their own separate bins or intervals. If outliers are not handled appropriately during the discretization process, they can lead to the creation of bins that are specific to these extreme values. This can cause the model to overfit to the outliers, as it tries to capture the variability introduced by these extreme values.
 4. **Limited Adaptability to New Data:**
 Once continuous attributes are discretized, the resulting bins or intervals are fixed and do not adapt to new data points that fall outside the predefined ranges. This lack of adaptability can limit the model's ability to generalize to unseen data that may have values outside the original bins. As a result, the model may struggle to make accurate predictions on new data, leading to overfitting on the training set.
+
+## Contributors
+
+This project was created and maintained by the following individuals:
+
+- [Mohammad Mohamadian](https://github.com/MAMMAD1381)
+- [MohammadReza MirRashid](https://github.com/mmdreza00mirrashid)
